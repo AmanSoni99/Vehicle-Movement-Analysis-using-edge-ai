@@ -1,0 +1,34 @@
+PROBLEM STATEMENT - Vehicle movement analysis and insight generation in a college campus using edge ai 
+
+PROCESS SOLUTION-
+
+Created a project for vehicle movement analysis and insight generation in a college campus used edge AI involves several steps, including hardware setup, software development, and integration. Below is the description
+
+
+Hardware Requirements:
+
+1.Edge Device: Raspberry Pi or NVIDIA Jetson Nano
+
+2.Camera: USB or CSI camera compatible with the edge device
+
+
+Software Requirements:
+
+1.Operating System: Raspberry Pi OS or JetPack for NVIDIA Jetson
+
+2.Programming Languages: Python for development
+
+3.Libraries: OpenCV for image processing, TensorFlow or PyTorch for deep learning models
+
+
+Project Outline:
+
+1.Vehicle Detection: Used a pre-trained deep learning model (such as YOLO or SSD) for real-time vehicle detection from camera feed.
+
+2.Object Tracking: Implemented object tracking (like SORT or Deep SORT) to track vehicles across frames, providing movement paths and speeds.
+
+3.Data Collection: Store relevant data such as vehicle count, movement patterns, and timestamps in a database (SQLite or MySQL).
+
+3.Insight Generation: Analyze collected data to generate insights such as peak traffic times, common routes, and parking patterns.
+
+
